@@ -1,0 +1,250 @@
+:root{
+    --CLOUD: #F4F4FD;
+    --IRIS: #4D5AE5;
+    --LIGHT-SLATE: #8E8F99;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+img {
+    display: block;
+    max-width: 100%;
+    object-fit: scale-down;
+}
+body {
+    font-family: Roboto, sans-serif;
+    line-height: normal;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+}
+h1{
+    font-size: 55px;
+    text-align: center;
+    margin: 20px;
+    color: white;
+}
+
+.front {
+    padding: 175px 50px 200px 50px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/people-office\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:block;
+}
+button{
+    display:block;
+    margin: auto;
+    background-color: var(--IRIS);
+    border-style: solid;
+    border-color: var(--IRIS);
+    border-radius: 5px;
+}
+a.butones{
+    color: white;
+    margin: 15px;
+}
+.web{
+    font-family: Raleway;
+    font-weight: 700;
+}
+.footer {
+    background: #2E2F42;
+    color: white;
+    font-size: 18px;
+    padding: 100px;
+}
+
+h2{
+    text-align: center;
+    font-size: 45px;
+    padding: 50px;
+}
+.navigation{
+    font-weight: 500;
+    font-size: 17px;
+}
+.studio-footer{
+    color:white;
+}
+.web_span{
+    color:var(--IRIS);
+}
+a:hover{
+    font-weight:bolder;
+}
+.web:hover{
+    font-weight: 800;
+    color:var(--IRIS);
+}
+a.navigate:hover{
+    font-weight: bolder;
+    color:var(--IRIS);
+}
+section.container{
+    /* margin: 120px 0; */
+    /* padding: 60px 0; */
+}
+ul.container1{
+    padding-top: 50px;
+    padding-bottom:100px;
+}
+.container1{
+    display:flex;
+    justify-content: space-around;
+    margin: 0 50px;
+    padding: 0 50px;
+    /* border: 1px dashed black; */
+}
+.top{
+    display:flex;
+    padding: 20px 100px;
+    justify-content: flex-start;
+    border-bottom: 2px solid var(--LIGHT-SLATE);
+}
+li.navi {
+    padding-left: 50px;
+}
+div.card{
+    background-color: white;
+    box-shadow: var(--CLOUD);
+
+}
+a, nav, .information{
+    display:inline-flex;
+    justify-content: flex-end;
+    /* margin: 0 20px; */
+    /* margin: auto; */
+}
+li.info{
+    padding:0 20px;
+}
+section.information{
+    margin: auto;
+    margin-right: 0;
+}
+div.team{
+    background-color: #ededf1;
+}
+li.personnel{
+    /* border: 1px dashed black; */
+    text-align: center;
+    margin: 20px;
+    /* padding: 20px */
+}
+div.card{
+    /* border: 1px dashed black; */
+    padding: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    /* box-shadow: #000000; */
+}
+h3.tag{
+    
+}
+h3.abt{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+p.tag{
+    padding: 8px 0;
+}
+svg.svg{
+    width: 16px;
+    height: 16px;
+    fill: white;
+}
+div.icons{
+    background: var(--CLOUD);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+li.about{
+    margin: 12px;
+}
+p.abt{
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    word-wrap: break-word;
+}
+.soc-icons{
+    display: flex;
+    justify-content: space-around;
+}
+.soc-link,.soc-link-footer{
+    background-color: var(--IRIS) ;
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+}
+h3.customers{
+    text-align: center;
+}
+.list-footer{
+    display:flex;
+
+    
+}
+.customers-list{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.customers-list-items{
+    border: 1px solid var(--LIGHT-SLATE);
+    margin: 12px;
+    padding: 16px 32px;
+}
+.list-footer-items{
+    padding: 0 50px;
+}
+.soc-icons-footer{
+    padding-top: 15px;
+}
+p.soc-icons-footer{
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    word-wrap: break-word;
+}
+.soc-link-footer{
+    margin-right: 20px;
+    padding: 15px;
+}
+.sect-options{
+    display: flex;
+    margin: 25px 50px;
+    justify-content: center;
+}
+.sect-options-btn{
+    margin: 10px;
+    padding: 10px;
+    background-color: var(--CLOUD);
+    border-color: var(--CLOUD);
+    color: var(--IRIS);
+    font-family: Roboto, sans-serif;
+}
+button:hover, a.sect-options-link:hover{
+    background-color: var(--IRIS);
+    color: var(--CLOUD);
+    font-weight: 1000;
+}
+.list-categories{
+    display: flex;
+    justify-content: center;
+    overflow: visible;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.list-categories-header{
+    padding: 15px 0;
+}
+.list-categories-items{
+    margin: 20px;
+}
