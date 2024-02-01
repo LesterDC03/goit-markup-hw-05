@@ -2,6 +2,8 @@
     --CLOUD: #F4F4FD;
     --IRIS: #4D5AE5;
     --LIGHT-SLATE: #8E8F99;
+    --SLATE: #434455;
+    --NAVY-BLUE: #2E2F42;
 }
 *{
     margin:0;
@@ -222,6 +224,10 @@ p.soc-icons-footer{
     margin: 25px 50px;
     justify-content: center;
 }
+.sect-options-link {
+    color: var(--IRIS);
+    font-weight: 500;
+}
 .sect-options-btn{
     margin: 10px;
     padding: 10px;
@@ -243,8 +249,18 @@ button:hover, a.sect-options-link:hover{
     margin-bottom: 50px;
 }
 .list-categories-header{
-    padding: 15px 0;
+    padding-bottom: 15px;
+    color: var(--NAVY-BLUE);
+}
+.list-categories-paragraph{
+    color: var(--SLATE);
+}
+.list-categories-caption{
+    padding: 32px 16px;
 }
 .list-categories-items{
     margin: 20px;
+}
+.active{
+    color: var(--IRIS);
 }
